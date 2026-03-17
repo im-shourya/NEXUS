@@ -5,3 +5,5 @@ numpy>=1.26.2
 pyyaml
 aiofiles
 streamlit>=1.28.2
+fastapi
+uvicorn[standard]
