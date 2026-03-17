@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.env*
+npm-debug.log
+yarn-error.log
+.DS_Store
+uploads/*
+!uploads/.gitkeep

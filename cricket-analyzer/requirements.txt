@@ -1,0 +1,6 @@
+# core
+opencv-python
+mediapipe
+numpy
+pyyaml
+aiofiles

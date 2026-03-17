@@ -1,0 +1,5 @@
+opencv-python>=4.8.1.78
+mediapipe>=0.10.30
+ultralytics>=8.0.222
+numpy>=1.26.2
+streamlit>=1.28.2

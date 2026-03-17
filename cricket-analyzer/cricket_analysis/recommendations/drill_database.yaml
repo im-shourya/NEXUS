@@ -1,0 +1,51 @@
+bowling_drills:
+  arm_action:
+    - name: "Wall Drill"
+      description: "Stand arm's length from wall, practice bowling action slowly, ensure elbow stays straight"
+      sets: 3
+      reps: 20
+      focus: "Maintain straight arm throughout"
+    - name: "One-Step Drill"
+      description: "Bowl from one step, focusing on arm position and release"
+      sets: 4
+      reps: 10
+      focus: "Arm angle and release point"
+  run_up:
+    - name: "Rhythm Run"
+      description: "Practice run-up without ball, focus on consistent rhythm"
+      sets: 5
+      reps: 8
+      focus: "Smooth acceleration"
+  front_foot:
+    - name: "Crease Drills"
+      description: "Bowl with line markers at crease, land front foot behind line"
+      sets: 3
+      reps: 15
+      focus: "Footwork precision"
+
+batting_drills:
+  footwork:
+    - name: "Shadow Batting"
+      description: "Practice footwork without ball, focusing on balance"
+      sets: 3
+      reps: 20
+      focus: "Front/back foot movement"
+    - name: "Cone Drills"
+      description: "Place cones, practice stepping to them with bat"
+      sets: 4
+      reps: 15
+      focus: "Precise foot placement"
+  backlift:
+    - name: "Mirror Practice"
+      description: "Practice backlift in front of mirror"
+      sets: 3
+      reps: 25
+      focus: "Straight backlift"
+
+fielding_drills:
+  catching:
+    - name: "Reaction Catches"
+      description: "Partner throws from close range, quick reactions"
+      sets: 3
+      reps: 20
+      focus: "Hand-eye coordination"
