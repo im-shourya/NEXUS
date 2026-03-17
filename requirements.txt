@@ -6,4 +6,7 @@ pyyaml
 aiofiles
 streamlit>=1.28.2
 fastapi
-uvicorn[standard]
+flask
+uvicorn
+requests
+python-dotenv
