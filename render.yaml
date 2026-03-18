@@ -1,0 +1,19 @@
+# Render Blueprint — NEXUS ML Server
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: nexus-ml-api
+    runtime: docker
+    dockerfilePath: ./ml-server/Dockerfile
+    dockerContext: ./ml-server
+    repo: https://github.com/im-shourya/NEXUS.git
+    branch: main
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 10000
+    buildFilter:
+      paths:
+        - ml-server/**

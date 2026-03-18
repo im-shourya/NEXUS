@@ -1,0 +1,20 @@
+# NEXUS ML Analysis Server — Dependencies
+# For deployment on Render / Railway
+
+# Web server
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.2.0
+
+# Computer Vision & ML
+opencv-python-headless>=4.8.1.78
+mediapipe>=0.10.30
+ultralytics>=8.0.222
+numpy>=1.26.2
+
+# Utilities
+pyyaml
+aiofiles
+
+# Video re-encoding (optional, for annotated video output)
+imageio-ffmpeg>=0.4.9
